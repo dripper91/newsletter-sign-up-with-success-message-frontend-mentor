@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <style>
+  </style>
+</head>
+<body>
+  <!-- Sign-up form end -->
+  <div class="signup-card">
+    <div class="signup-img-container">
+      <img class="signup-img" src="./assets/images/illustration-sign-up-mobile.svg">
+    </div>
+
+    <div class="signup-container">
+      <h1>Stay updated!</h1>
+
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul>
+        <li><span>Product discovery and building what matters</span></li>
+        <li><span>Measuring to ensure updates are a success</span></li>
+        <li><span>And much more!</span></li>
+      </ul>
+
+      <form class="signup-form">
+        <div class="email-label-container">
+          <label for="email" id="email-label">Email address</label>
+          <!-- <p id="email-label">Email address</p> -->
+          <p id="input-error-msg" hidden>Valid email required</p>
+        </div>
+        <input type="input" class="email-input" name="email" placeholder="email@company.com">
+        <button type="submit" class="submit-btn">Subscribe to monthly newsletter</button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <div class="success-card">
+    <img class="success-img" src="./assets/images/icon-success.svg">
+
+    <h1 class="thanks-header">Thanks for subscribing!</h1>
+
+    <p>A confirmation email has been sent to <span class="user-email-text">ash@loremcompany.com</span>. 
+      Please open it and click the button inside to confirm your subscription.</p>
+
+    <button class="dismiss-btn">Dismiss message</button>
+  </div>
+
+  <!-- Success message end -->
+</body>
+<script src="script.js"></script>
+</html>

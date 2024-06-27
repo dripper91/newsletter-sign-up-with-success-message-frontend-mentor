@@ -119,6 +119,10 @@ li::marker {
     font-family: "roboto-regular";
 }
 
+input:hover {
+    cursor: pointer;
+}
+
 .form-input-error {
     border: 1px solid hsl(4, 100%, 67%);
     background-color: rgb(255,232,228);
@@ -138,6 +142,10 @@ li::marker {
 
 .submit-btn:hover, .dismiss-btn:hover {
     cursor: pointer;
+}
+
+.submit-btn:active, .dismiss-btn:active {
+    background-image: linear-gradient(to right, rgb(251,83,122), rgb(254,141,76));
 }
 
 .success-card {

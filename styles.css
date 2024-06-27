@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: 1px solid purple; */
 }
 
 *::before, *::after {
@@ -33,79 +32,55 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* flex-grow: 1; */
-    /* padding: 0px; */
-    /* border: 2px solid red; */
     background-color: white;
 }
 
 .signup-img {
     width: 100%;
-    /* flex-basis: 33%; */
-    /* flex-grow: 4; */
-    /* border: 1px solid black; */
 }
 
 .signup-container {
     padding: 25px;
     margin: 0;
     width: 100%;
-    /* flex-basis: 66%; */
-    /* border: 1px solid black; */
 }
 
 ul {
     border: 1px solid white;
     margin-bottom: 30px;
-    /* list-style-position: outside; */
     padding-left: 0;
-    /* padding-inline-start: 16px; */
 }
 
 li {
     position: relative;
     left: 20px;
     padding-left: 16px;
-    /* text-indent: -16px; */
     margin-bottom: 12px;
-    /* margin-left: 16px; */
-    /* border: 1px solid black; */
 }
 
 li span {
     position: relative;
     top: -5px;
-    /* margin-left: 16px; */
-    /* text-indent: -16px; */
-    /* margin-bottom: 10px; */
-    /* border: 1px solid black; */
 }
 
 li::marker {
     content: url(./assets/images/icon-list.svg);
-    /* margin-right: 10px; */
 }
 
 .email-label-container {
     display: flex;
-    /* border: 1px solid black; */
     justify-content: space-between;
-    /* height: 1rem; */
     padding: 0;
 }
 
 #email-label, #input-error-msg {
-    /* border: 1px solid blue; */
     font-weight: bold;
     margin-bottom: 4px;
     margin-top: 0;
     font-size: 0.8rem;
-    /* display: inline-block; */
 }
 
 #input-error-msg {
-    /* text-align: right; */
-    /* display: none; */
     color: hsl(4, 100%, 67%);
 }
 
@@ -127,7 +102,6 @@ input:hover {
     border: 1px solid hsl(4, 100%, 67%);
     background-color: rgb(255,232,228);
     color: hsl(4, 100%, 67%);
-    /* font-family: 'roboto-bold'; */
 }
 
 .submit-btn, .dismiss-btn {
@@ -168,7 +142,6 @@ input:hover {
 
 .user-email-text {
     font-family: 'roboto-bold';
-    /* font-weight: bold; */
 }
 
 .dismiss-btn {
@@ -202,7 +175,6 @@ input:hover {
 
     .signup-card {
         flex-direction: row-reverse;
-        /* align-self: center; */
         padding: 20px 20px 20px 0px;
         max-width: 768px;
         max-height: 530px;
@@ -215,13 +187,10 @@ input:hover {
         margin: 20px;
         margin-top: 0;
         padding-top: 0px;
-        /* border: 1px solid black; */
     }
 
     .signup-img {
         content: url(./assets/images/illustration-sign-up-desktop.svg);
-        /* border-radius: 12px; */
-        /* flex-basis: 48%; */
         max-height: 510px;
     }
 
@@ -234,15 +203,9 @@ input:hover {
         width: 400px;
         border-radius: 25px;
         padding: 30px;
-        /* padding-top: 20px; */
-    }
-
-    .success-card * {
-        /* border: 1px solid black; */
     }
 
     .success-img {
-        /* margin-bottom: 0px; */
         width: 50px;
     }
 

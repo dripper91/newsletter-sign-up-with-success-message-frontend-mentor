@@ -55,19 +55,28 @@ h1 {
 }
 
 ul {
+    border: 1px solid white;
     margin-bottom: 30px;
+    /* list-style-position: outside; */
+    padding-left: 0;
+    /* padding-inline-start: 16px; */
 }
 
 li {
     position: relative;
-    left: -20px;
-    margin-bottom: 14px;
+    left: 20px;
+    padding-left: 16px;
+    /* text-indent: -16px; */
+    margin-bottom: 12px;
+    /* margin-left: 16px; */
+    /* border: 1px solid black; */
 }
 
 li span {
     position: relative;
     top: -5px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
+    /* text-indent: -16px; */
     /* margin-bottom: 10px; */
     /* border: 1px solid black; */
 }
